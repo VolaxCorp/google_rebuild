@@ -2,7 +2,7 @@
 
 <html lang="de">
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../Coding/style.css">
         <link rel="script" type="text/javascript" href="index.js">
         <script src="https://kit.fontawesome.com/af2e86c46d.js" crossorigin="anonymous"></script>
         <title>Google Search</title>
@@ -10,7 +10,7 @@
     <body>
         <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC1nKfkC7nX7r_uZD1Jzx0_ks6hd0ShK5ZFw&s" alt="Logo">
         <div class="main">
-            <div class="icon-wrapper    ">
+            <div class="icon-wrapper">
                 <i class="fa-solid fa-magnifying-glass icon"></i>
             </div>
             <label>
@@ -24,12 +24,14 @@
             <div class="icon-wrapper">
                 <i class="fa-solid fa-microphone"></i>
             </div>
-            <button class="ai-btn">
-                <div class="ai-icon">
-                    <i class="fa-solid fa-hexagon-nodes"></i>
-                </div>
-                <p class="text">KI-Modus</p>
-            </button>
+            <div class="ai-btn-wrapper">
+                <button class="ai-btn">
+                    <div class="ai-icon">
+                        <i class="fa-solid fa-hexagon-nodes"></i>
+                    </div>
+                    <p class="text">KI-Modus</p>
+                </button>
+            </div>
         </div>
             <div class="btn-wpr">
                 <button class="btn" onclick="searchresult()">Google Search</button>
